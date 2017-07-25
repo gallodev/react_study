@@ -3,9 +3,10 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
-.product-box{	
-	
-}
 li{
 	list-style: none;	
+}
+.product-image{
+	width: 300px;
+	height: 250px;
 }
