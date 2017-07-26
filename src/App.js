@@ -7,13 +7,14 @@ import Product from "./Product";
 class App extends Component {
 
   componentDidMount(){
-    alert("Hello React World !!");    
+    
   }
 
   render() {    
     return (
       <div className="App">
-        <Product />  
+        <Product name="main-product" />  
+        <Product name="offer" />  
       </div>      
     );
   }
